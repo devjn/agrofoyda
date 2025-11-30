@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgroFoyda - Turn Your Soil into Solvency</title>
-    <meta name="description" content="AgroFoyda: The first AI-powered Telegram Mini App that aligns your harvest plan with Agrobank’s credit requirements.">
+    <meta name="description"
+        content="AgroFoyda: The first AI-powered Telegram Mini App that aligns your harvest plan with Agrobank’s credit requirements.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
@@ -26,7 +29,8 @@
     <header class="hero">
         <div class="container hero-content">
             <h1>Turn Your Soil into Solvency.</h1>
-            <p class="sub-headline">The first AI-powered Telegram Mini App that aligns your harvest plan with Agrobank’s credit requirements.</p>
+            <p class="sub-headline">The first AI-powered Telegram Mini App that aligns your harvest plan with Agrobank’s
+                credit requirements.</p>
             <a href="#solution" class="cta-button">See How It Works</a>
         </div>
     </header>
@@ -37,11 +41,13 @@
             <div class="grid-3">
                 <div class="card">
                     <h3>Water Crisis</h3>
-                    <p>Uzbekistan faces a water crisis. Farmers need expensive water-saving tech like drip irrigation but lack the cash.</p>
+                    <p>Agriculture consumes 90% of Uzbekistan's fresh water, yet nearly 50% is lost due to inefficient
+                        irrigation methods (Source: UN/World Bank).</p>
                 </div>
                 <div class="card">
                     <h3>Financial Gap</h3>
-                    <p>Farmers struggle to calculate ROI and fear loans. Banks want to issue "Green Loans" but struggle to assess risk.</p>
+                    <p>Farmers struggle to calculate ROI and fear loans. Banks want to issue "Green Loans" but struggle
+                        to assess risk.</p>
                 </div>
                 <div class="card">
                     <h3>The Result</h3>
@@ -55,7 +61,7 @@
         <div class="container">
             <h2 class="section-title">Our Solution</h2>
             <p class="section-subtitle">A "Pocket Financial & Agronomic Advisor" living inside Telegram.</p>
-            
+
             <div class="wizard-steps">
                 <div class="step">
                     <div class="step-number">1</div>
@@ -85,13 +91,18 @@
         <div class="container">
             <h2 class="section-title">Why Our Team?</h2>
             <div class="grid-2">
-                <div class="card">
-                    <h3>Strengths</h3>
-                    <p>A powerful mix of Full-Stack Development and Product Vision. We understand both the code and the customer.</p>
+                <div class="card team-card">
+                    <div class="avatar-placeholder">J</div>
+                    <h3>Jaxongir Fayzullaev</h3>
+                    <p class="role">Team Lead & Senior Full Stack AI Agents</p>
+                    <p>7 years exp, product owner. Expert in building scalable AI-driven solutions.</p>
                 </div>
-                <div class="card">
-                    <h3>Motivation</h3>
-                    <p>We are solving the "last mile" problem. We don't ask farmers to download a new app; we bring the bank to their chat list.</p>
+                <div class="card team-card">
+                    <div class="avatar-placeholder">U</div>
+                    <h3>Umarov Timur</h3>
+                    <p class="role">Full-Stack Developer</p>
+                    <p>Strong experience in modern frontend frameworks and system-level backend development. Focused on
+                        clean architecture, performance, and building reliable, production-ready solutions.</p>
                 </div>
             </div>
         </div>
@@ -100,22 +111,61 @@
     <section id="tech" class="section bg-dark text-white">
         <div class="container">
             <h2 class="section-title text-white">Technical Depth</h2>
-            <div class="tech-grid">
-                <div class="tech-item">
-                    <h4>Telegram Mini App</h4>
-                    <p>Frontend accessibility where users already are.</p>
+            <div class="tech-flow">
+                <div class="tech-step">
+                    <div class="tech-icon">📱</div>
+                    <h4>User (Telegram)</h4>
+                    <p>Frontend: TWA + React</p>
                 </div>
-                <div class="tech-item">
-                    <h4>Geolocation API</h4>
-                    <p>Precise field location via native Telegram API.</p>
+                <div class="tech-arrow">➜</div>
+                <div class="tech-step">
+                    <div class="tech-icon">📍</div>
+                    <h4>Geolocation</h4>
+                    <p>Native API + OpenWeather</p>
                 </div>
-                <div class="tech-item">
-                    <h4>Data Integration</h4>
-                    <p>OpenWeather API + FAO Soil Data + Agrobank Open API.</p>
+                <div class="tech-arrow">➜</div>
+                <div class="tech-step">
+                    <div class="tech-icon">⚙️</div>
+                    <h4>Backend</h4>
+                    <p>FastAPI + PostgreSQL</p>
                 </div>
-                <div class="tech-item">
-                    <h4>AI/ML</h4>
-                    <p>Predictive modeling for yield risk & LLM Chatbot for agronomic advice.</p>
+                <div class="tech-arrow">➜</div>
+                <div class="tech-step">
+                    <div class="tech-icon">🧠</div>
+                    <h4>AI Model</h4>
+                    <p>Yield Prediction (Scikit-learn)</p>
+                </div>
+                <div class="tech-arrow">➜</div>
+                <div class="tech-step">
+                    <div class="tech-icon">💰</div>
+                    <h4>Agrobank</h4>
+                    <p>Loan Application</p>
+                </div>
+            </div>
+
+            <div class="tech-details" style="margin-top: 4rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem; color: var(--white);">Tech Stack Details</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <h4>Frontend</h4>
+                        <p>Telegram Web Apps (TWA) script, React.js / Vue.js, TailwindCSS.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>Backend</h4>
+                        <p>Python (FastAPI) for high-performance async calculations.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>Database</h4>
+                        <p>PostgreSQL (with PostGIS for soil data mapping).</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>AI Models</h4>
+                        <p>Yield Prediction: Scikit-learn (Random Forest). Chatbot: LLM with Uzbek language support.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h4>APIs</h4>
+                        <p>OpenWeatherMap, FAO Soil Grids, Agrobank Open API (mockup).</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,20 +177,20 @@
             <div class="timeline">
                 <div class="timeline-item current">
                     <div class="timeline-content">
-                        <h3>Now: Idea</h3>
-                        <p>Idea Validation & UI/UX Architecture.</p>
+                        <h3>Phase 1 (Hackathon)</h3>
+                        <p>UI Mockups & Logic Design. Idea Validation & UI/UX Architecture.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>Month 1-2</h3>
-                        <p>Prototype development (Telegram UI + Python Backend).</p>
+                        <h3>Phase 2 (Month 1)</h3>
+                        <p>Backend API for "Crop Calculator" & Telegram Bot setup.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>Month 3</h3>
-                        <p>Integration of Geolocation and Weather APIs.</p>
+                        <h3>Phase 3 (Month 2)</h3>
+                        <p>Integrating OpenWeather API & Testing with local farmers.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -161,4 +211,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
